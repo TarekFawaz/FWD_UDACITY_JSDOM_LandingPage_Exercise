@@ -22,7 +22,8 @@ The project has been built from scratch using MS Visual Code.
 > - build JS function to build the navigation menu dynamically
 > - Handle smooth scroll to section using CSS  `html {scroll-behavior: smooth;}`
 > - build JS function to detect the scroll event and highlight the relative menu item 
-**Updated**  
+
+> **Updated**  
 *based on code review it is required to handle the following*
 > - handle the smooth scroll to section based on menu item click event 
 > - handle Mobile view for menu items by switching to hamburger icon 
