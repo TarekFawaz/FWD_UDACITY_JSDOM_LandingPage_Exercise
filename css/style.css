@@ -1,0 +1,188 @@
+
+
+
+html {
+    scroll-behavior: smooth;
+    height:100%;
+  }
+  body {
+    position: relative; 
+    
+    margin:0;
+  }
+  /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
+  
+  .page_header {
+    position: -webkit-sticky; /* Safari */
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    border-bottom: crimson;
+    border-bottom-width: 5px;
+    border-bottom-style: ridge;
+  }
+  .title{
+    float: left;
+    font-size: 2.0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+
+
+}
+  .nav{
+      width: 50%;
+      float: right;
+       color: #fff;
+    font-size: 1.5em;
+    text-align: right;
+    margin-right: 2%;
+    
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav ul li {
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .nav ul li::after{
+    content: "|";
+    color: #fd0707;
+    font-weight: bolder;
+    float: left;
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+  .nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+  
+  .nav ul li a:hover {
+    background-color:rgba(255, 255, 255, 0.8);
+    box-shadow:0 0.1em .25em rgba(0,0,0,.7);
+    color: red;
+  }
+
+    .active  {
+    background-color:rgba(255, 255, 255, 0.8);
+    box-shadow:0 0.1em .25em rgba(0,0,0,.7);
+    color: red !important;
+  }
+
+  
+
+
+  .section{
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.7);
+    box-sizing:border-box;
+    min-height: 100vh;
+   padding:10vmin;
+   text-align:center;
+    margin: 50px 50px 50px 50px;
+ 
+    
+  }
+  .section:nth-of-type(odd) {
+    background-color:rgba(255,85,60,.7);
+    box-shadow:0 0 .25em rgba(255,0,0,1);
+  }
+
+/*** Floating Button Style ***/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:20px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+  /*** Animaated Background ****/
+    
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  /*** Footer ***/
+  footer {
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    height: 70px;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    left: 0px;
+    bottom: 0px;
+   
+    }
+    .copyright {
+        width: 50%;
+        float: left;
+        font-size: 1.2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        @media (max-width: 600px) {
+          width: 100%;
+        }
+        
+       
+        }
+       
