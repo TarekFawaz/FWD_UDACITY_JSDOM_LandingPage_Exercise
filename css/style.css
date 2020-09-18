@@ -2,7 +2,7 @@
 
 
 html {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/ /*handle the smooth behavior within click event in JS */ 
     height:100%;
   }
   body {
@@ -10,11 +10,7 @@ html {
     
     margin:0;
   }
-  /*#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
+  
   
   .page_header {
     position: -webkit-sticky; /* Safari */
@@ -85,7 +81,11 @@ html {
     color: red !important;
   }
 
-  
+  .nav a.icon {
+    
+    display: none;
+    
+  }
 
 
   .section{
@@ -104,6 +104,61 @@ html {
     background-color:rgba(255,85,60,.7);
     box-shadow:0 0 .25em rgba(255,0,0,1);
   }
+
+
+  /** Hamburger menu styles for narrow screens **/
+  @media only screen and (max-width: 768px) {
+    
+    #main {
+        max-width: 480px;
+        margin: auto;
+       
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .nav {
+        background-color:rgba(0, 0, 0, 0.45);
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+      }
+      
+      .nav #menu {
+        display: none;
+        width: 100%;
+      }
+
+      .nav ul li {
+        float: left;
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 25%;
+      }
+
+      .nav ul li::after{
+        display: none;
+    }
+      
+      .nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .nav a.icon {
+          color: indigo;
+          display: block;
+          position: fixed;
+          right: 0;
+          top: 0;
+      }
+  }
+  
+  
 
 /*** Floating Button Style ***/
 .float{
@@ -185,4 +240,6 @@ html {
         
        
         }
+
+
        
