@@ -49,5 +49,6 @@ The project has been built from scratch using MS Visual Code.
 > - Safari 
 > *and you could expolre more*
 ---
-> please help me by sending me comments regarding the coding style or missing best practices by sending me e-mail to [me](mailto:tarek.fawaz1983@gmail.com) 
+> please help me by sending me comments regarding the coding style or missing best practices by sending me e-mail to [tarek.fawaz1983@gmail.com](mailto:tarek.fawaz1983@gmail.com) 
+or update on this repo ;)
 
