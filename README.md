@@ -7,7 +7,7 @@
 - [Usage](#Usage)
 - [Prerequisite](#Prerequisite)
 - [Installation](#Installation)
-- [Runtime](#Runtime)
+- [Runtime_Environment](#Runtime_Environment)
 
 ## Description
 
@@ -42,11 +42,12 @@ The project has been built from scratch using MS Visual Code.
 ## Installation
 > just download the repo and click on index.html
 ---
-## Runtime Environment
+## Runtime_Environment
 > modern web brosers such as 
 > - Chrom 
 > - Firefox 
 > - Safari 
 > *and you could expolre more*
-
+---
+> please help me by sending me comments regarding the coding style or missing best practices by sending me e-mail to [me](mailto:tarek.fawaz1983@gmail.com) 
 
